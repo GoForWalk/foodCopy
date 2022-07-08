@@ -12,6 +12,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print("Git Test1")
+        print("Git Test2")
+        print("Git Test3")
+        print("Git Test4")
+        print("Git Test5")
     }
 
 
