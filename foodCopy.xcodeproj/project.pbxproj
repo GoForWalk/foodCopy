@@ -13,6 +13,7 @@
 		CF3EEC5D2872F92900BFF417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3EEC5B2872F92900BFF417 /* Main.storyboard */; };
 		CF3EEC5F2872F92A00BFF417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3EEC5E2872F92A00BFF417 /* Assets.xcassets */; };
 		CF3EEC622872F92A00BFF417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3EEC602872F92A00BFF417 /* LaunchScreen.storyboard */; };
+		CFF922CE2877B5EB00758822 /* GithubTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF922CD2877B5EB00758822 /* GithubTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF3EEC5E2872F92A00BFF417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF3EEC612872F92A00BFF417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF3EEC632872F92A00BFF417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF922CD2877B5EB00758822 /* GithubTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CF3EEC552872F92900BFF417 /* AppDelegate.swift */,
 				CF3EEC572872F92900BFF417 /* SceneDelegate.swift */,
 				CF3EEC592872F92900BFF417 /* ViewController.swift */,
+				CFF922CD2877B5EB00758822 /* GithubTest.swift */,
 				CF3EEC5B2872F92900BFF417 /* Main.storyboard */,
 				CF3EEC5E2872F92A00BFF417 /* Assets.xcassets */,
 				CF3EEC602872F92A00BFF417 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				CF3EEC5A2872F92900BFF417 /* ViewController.swift in Sources */,
 				CF3EEC562872F92900BFF417 /* AppDelegate.swift in Sources */,
+				CFF922CE2877B5EB00758822 /* GithubTest.swift in Sources */,
 				CF3EEC582872F92900BFF417 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
