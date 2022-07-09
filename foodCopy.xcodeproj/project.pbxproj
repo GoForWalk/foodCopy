@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0C3AF72878418D00DDF143 /* MelonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0C3AF62878418D00DDF143 /* MelonViewController.swift */; };
 		CF3EEC562872F92900BFF417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EEC552872F92900BFF417 /* AppDelegate.swift */; };
 		CF3EEC582872F92900BFF417 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EEC572872F92900BFF417 /* SceneDelegate.swift */; };
 		CF3EEC5A2872F92900BFF417 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EEC592872F92900BFF417 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF0C3AF62878418D00DDF143 /* MelonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelonViewController.swift; sourceTree = "<group>"; };
 		CF3EEC522872F92900BFF417 /* foodCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3EEC552872F92900BFF417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF3EEC572872F92900BFF417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		CF3EEC542872F92900BFF417 /* foodCopy */ = {
 			isa = PBXGroup;
 			children = (
+				CF0C3AF62878418D00DDF143 /* MelonViewController.swift */,
 				CF3EEC552872F92900BFF417 /* AppDelegate.swift */,
 				CF3EEC572872F92900BFF417 /* SceneDelegate.swift */,
 				CF3EEC592872F92900BFF417 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0C3AF72878418D00DDF143 /* MelonViewController.swift in Sources */,
 				CF3EEC5A2872F92900BFF417 /* ViewController.swift in Sources */,
 				CF3EEC562872F92900BFF417 /* AppDelegate.swift in Sources */,
 				CFF922CE2877B5EB00758822 /* GithubTest.swift in Sources */,
