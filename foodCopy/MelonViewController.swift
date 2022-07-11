@@ -14,6 +14,8 @@ class MelonViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(Date().description + " Melon ViewController" + #function)
 
         playSilder.thumbTintColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
         
@@ -23,6 +25,23 @@ class MelonViewController: UIViewController {
 
         likeSong.contentEdgeInsets = UIEdgeInsets(top: 6, left: 12, bottom: 6, right: 12)
             
+    }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print(Date().description + " Melon ViewController" + #function)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print(Date().description + " Melon ViewController" + #function)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print(Date().description + " Melon ViewController" + #function)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        print(Date().description + " Melon ViewController" + #function)
     }
     
 }
