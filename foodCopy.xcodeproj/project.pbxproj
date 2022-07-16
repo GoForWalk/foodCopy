@@ -14,11 +14,15 @@
 		CF3EEC5D2872F92900BFF417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3EEC5B2872F92900BFF417 /* Main.storyboard */; };
 		CF3EEC5F2872F92A00BFF417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3EEC5E2872F92A00BFF417 /* Assets.xcassets */; };
 		CF3EEC622872F92A00BFF417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3EEC602872F92A00BFF417 /* LaunchScreen.storyboard */; };
+		CF68C0882880FE1300E63ACD /* TransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0872880FE1300E63ACD /* TransitionSecondViewController.swift */; };
+		CF68C08A2882FEA400E63ACD /* TransitionViewControllerSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0892882FEA400E63ACD /* TransitionViewControllerSampleViewController.swift */; };
 		CF6CC164287FA68700976A28 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6CC163287FA68700976A28 /* Setting.storyboard */; };
 		CF6CC168287FAEE200976A28 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = CF6CC167287FAEE200976A28 /* SideMenu */; };
 		CF6CC16B287FAF6100976A28 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = CF6CC16A287FAF6100976A28 /* FSCalendar */; };
 		CF6CC16E287FAFDD00976A28 /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = CF6CC16D287FAFDD00976A28 /* TextFieldEffects */; };
 		CF6D4248287FC20400B7708C /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF6D4247287FC20400B7708C /* IQKeyboardManagerSwift */; };
+		CF6D424B2880E83C00B7708C /* Transition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6D424A2880E83C00B7708C /* Transition.storyboard */; };
+		CF6D424D2880EFCC00B7708C /* TransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D424C2880EFCB00B7708C /* TransitionFirstViewController.swift */; };
 		CFF922CE2877B5EB00758822 /* GithubTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF922CD2877B5EB00758822 /* GithubTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +36,11 @@
 		CF3EEC5E2872F92A00BFF417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF3EEC612872F92A00BFF417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF3EEC632872F92A00BFF417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF68C0872880FE1300E63ACD /* TransitionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecondViewController.swift; sourceTree = "<group>"; };
+		CF68C0892882FEA400E63ACD /* TransitionViewControllerSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewControllerSampleViewController.swift; sourceTree = "<group>"; };
 		CF6CC163287FA68700976A28 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		CF6D424A2880E83C00B7708C /* Transition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transition.storyboard; sourceTree = "<group>"; };
+		CF6D424C2880EFCB00B7708C /* TransitionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFirstViewController.swift; sourceTree = "<group>"; };
 		CFF922CD2877B5EB00758822 /* GithubTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +78,7 @@
 		CF3EEC542872F92900BFF417 /* foodCopy */ = {
 			isa = PBXGroup;
 			children = (
+				CF6D42492880E82500B7708C /* Transition */,
 				CF0C3AF62878418D00DDF143 /* MelonViewController.swift */,
 				CF3EEC552872F92900BFF417 /* AppDelegate.swift */,
 				CF3EEC572872F92900BFF417 /* SceneDelegate.swift */,
@@ -90,6 +99,17 @@
 				CF6CC163287FA68700976A28 /* Setting.storyboard */,
 			);
 			path = storyboards;
+			sourceTree = "<group>";
+		};
+		CF6D42492880E82500B7708C /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				CF6D424A2880E83C00B7708C /* Transition.storyboard */,
+				CF6D424C2880EFCB00B7708C /* TransitionFirstViewController.swift */,
+				CF68C0872880FE1300E63ACD /* TransitionSecondViewController.swift */,
+				CF68C0892882FEA400E63ACD /* TransitionViewControllerSampleViewController.swift */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +185,7 @@
 				CF3EEC622872F92A00BFF417 /* LaunchScreen.storyboard in Resources */,
 				CF3EEC5F2872F92A00BFF417 /* Assets.xcassets in Resources */,
 				CF3EEC5D2872F92900BFF417 /* Main.storyboard in Resources */,
+				CF6D424B2880E83C00B7708C /* Transition.storyboard in Resources */,
 				CF6CC164287FA68700976A28 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,10 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF68C08A2882FEA400E63ACD /* TransitionViewControllerSampleViewController.swift in Sources */,
 				CF0C3AF72878418D00DDF143 /* MelonViewController.swift in Sources */,
 				CF3EEC5A2872F92900BFF417 /* ViewController.swift in Sources */,
+				CF6D424D2880EFCC00B7708C /* TransitionFirstViewController.swift in Sources */,
 				CF3EEC562872F92900BFF417 /* AppDelegate.swift in Sources */,
 				CFF922CE2877B5EB00758822 /* GithubTest.swift in Sources */,
+				CF68C0882880FE1300E63ACD /* TransitionSecondViewController.swift in Sources */,
 				CF3EEC582872F92900BFF417 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +356,7 @@
 				INFOPLIST_FILE = foodCopy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Setting;
+				INFOPLIST_KEY_UIMainStoryboardFile = Transition;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -361,7 +385,7 @@
 				INFOPLIST_FILE = foodCopy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Setting;
+				INFOPLIST_KEY_UIMainStoryboardFile = Transition;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
